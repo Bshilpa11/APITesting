@@ -6,6 +6,7 @@ import io.cucumber.java.Before;
 
 public class Hooks {
 
+	//Check if place is availabe to delete if not then add the place
 	@Before("@DeletePlace")
 	public void beforeScanario() throws IOException {
 		
