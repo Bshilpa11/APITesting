@@ -15,7 +15,8 @@ import io.cucumber.junit.CucumberOptions;
 		tags = {"@AddPlace"}
 		)
 
-
-public class TestRunnerClass {
+	//Adding Class  AbstractTestNGCucumberTests to run cucumber file
+public class TestRunnerClass extends AbstractTestNGCucumberTests {
 
 }
+
