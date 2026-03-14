@@ -2,8 +2,6 @@ package resources;
 
 public enum AllAPIResources {
 
-	
-	
 	AddPlaceAPI("/maps/api/place/add/json"),
 	GetPlaceAPI("/maps/api/place/get/json"),
 	DeletePlaceAPI("/maps/api/place/delete/json");
