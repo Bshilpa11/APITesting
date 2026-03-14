@@ -53,9 +53,10 @@ public class Utility {
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream("C:\\Users\\parsh\\eclipse-workspace\\Api_framework\\src\\test\\java\\resources\\Global.properties");
 		prop.load(fis);
-		return prop.getProperty(KeyValue);
+		return prop.getProperty(KeyValue); 
 	}
-	
+
+	//Parsing Json Response
 	public String getJasonPath(Response response, String keyValue)
 	{
 		String res = response.asString();
