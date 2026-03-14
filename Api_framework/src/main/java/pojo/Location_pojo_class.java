@@ -4,7 +4,8 @@ public class Location_pojo_class {
 
 	private double lat;
 	private double lng;
-	
+
+	//Setting location pojo
 	public double getLat() {
 		return lat;
 	}
@@ -17,6 +18,5 @@ public class Location_pojo_class {
 	public void setLng(double lng) {
 		this.lng = lng;
 	}
-	
 	
 }
