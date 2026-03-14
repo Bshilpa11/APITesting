@@ -25,7 +25,7 @@ public class PlaceApiStepDefination extends Utility{
 	
 	RequestSpecification req;
 	Response response;
-	static String placeID; // To use the same variable value throughout the test making it static.
+	static String placeID; 
 	
 	TestData data = new TestData();
 
@@ -54,14 +54,12 @@ public class PlaceApiStepDefination extends Utility{
 
 	@Then("API call is successful with status code {int}")
 	public void api_call_is_successful_with_status_code(Integer int1) {
-	    // Write code here that turns the phrase above into concrete actions
 		 
 		Assert.assertEquals(response.getStatusCode(),200);
 	}
 
 	@And("{string} in response body is {string}")
 	public void in_response_body_is(String keyValue, String ExpectedValue) {
-	    // Write code here that turns the phrase above into concrete actions
 	    
 	    Assert.assertEquals(getJasonPath(response, keyValue),ExpectedValue);
 	}
