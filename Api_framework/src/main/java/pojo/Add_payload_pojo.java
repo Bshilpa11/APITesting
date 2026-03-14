@@ -13,7 +13,7 @@ public class Add_payload_pojo {
 	private String website;
 	private String language;
 	
-	
+	//Create mini POJO for location
 	public Location_pojo_class getLocation() {
 		return location;
 	}
